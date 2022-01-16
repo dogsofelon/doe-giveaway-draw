@@ -116,7 +116,7 @@ margin: 0 auto;
   font-size: 20px;
   margin-left: 15px;
   margin-top: 25px;
-  
+  overflow: auto;
 }
 .cardBack_data{
   display: flex;
