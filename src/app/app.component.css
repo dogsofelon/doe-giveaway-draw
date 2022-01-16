@@ -1,0 +1,12 @@
+.navbar-color {
+    background-color:white;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+.headText{
+    margin:0 auto;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+
+<div class="card">
+    <div class="formGroup mb-4">
+        <button type="button" class="btn btn-success btn-block refreshBtn" (click)="refreshUser()">
+          <i class="fa fa-refresh"></i> Draw new card
+        </button>
+      </div>
+    <div class="card__inner" (click)="flipCard()">
+        <div class="card__face card__face--front">
+            <div class="frontView">
+                <img src="./../../../assets/Coin.png"/>
+                <p>And the Winner is</p>
+            </div>
+            
+        </div>
+        <div class="card__face card__face--back">
+            <div class="card__content">
+                <div class="card__header">
+                    <h3>Congratulations!</h3>
+                    <div class="cardBack_data">
+                        <img class="twitter" src="./../../../assets/twitter-svgrepo-com.svg"/>
+                        <p>@{{drawWinnerUser.twitterusername}}</p>
+                    </div>
+                    <div class="cardBack_data">
+                        <img src="./../../../assets/ethscan.svg"/>
+                        <p>{{drawWinnerUser.walletaddress}}</p>
+                    </div>
+                    <p class="winningtext">You are the lucky winner of the highly anticipated Tesla Giveaway. Please contact @thecryptopresident as soon as possible.<br> <br>Stay Tuned.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
